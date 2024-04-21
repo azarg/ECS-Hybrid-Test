@@ -70,7 +70,7 @@ public partial struct EnemyMoveJob : IJobEntity
         if (FindNearest) {
             // find nearest enemy
             float minDist = float.MaxValue;
-            float3 nearestEnemyPos = float3.zero;
+            float3 nearestEnemyPos = enemy.Position;
             for (int i = 0; i < Enemies.Length; i++) {
 
                 if (enemy.Position.Equals(Enemies[i].Position)) continue;

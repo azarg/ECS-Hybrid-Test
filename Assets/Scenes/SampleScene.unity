@@ -167,13 +167,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d745e944e39f6d4faea0309338b9560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyPrefab: {fileID: 2058584876580351341, guid: 4ee0fa5bf53b0ce49b286d659eae8558, type: 3}
+  Mode: 2
+  FindNearest: 1
   SpawnCount: 2500
   SpawnRadius: 30
-  FindNearest: 1
-  UseEntities: 1
-  UseTransformCopyJob: 1
+  EnemyPrefab: {fileID: 2058584876580351341, guid: 4ee0fa5bf53b0ce49b286d659eae8558, type: 3}
   Enemies: []
+  UseTransformCopyJob: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
